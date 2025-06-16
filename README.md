@@ -2,6 +2,9 @@
 
 - Export **Copilot interactions audit log** from Microsoft Purview.
 - Export **licensed user list** from Microsoft 365 Admin Center.
+- **Paste your file paths** into Power BI when prompted:
+  - One for the **Copilot_Activities** file
+  - One for the **Copilot Licensed Users** file
 - Merge both datasets in Power BI.
 
 ---
@@ -16,7 +19,7 @@
 - In **Activities > Friendly Names**, select:  
   `Copilot Activities – Interacted with Copilot`
 - Set a **Date Range** (recommended: 3–6 months).
-- Give your search a name (CopilotAuditMMDDYYYY) and click **Search**.
+- Give your search a name and click **Search**.
 - Once the status changes to **Completed**, click into it.
 - Select **Export > Download all results**.
 - This will download a `.csv` file containing an `AuditData` JSON column.
@@ -48,3 +51,6 @@
 - The `AuditData` column contains nested JSON. Power BI will automatically flatten this using the provided report template.
 - Ensure the **audit log date range** is wide enough (3–6 months) to capture meaningful usage data.
 - Use **email address** as the key when merging datasets in Power BI.
+- When prompted in Power BI, paste the **full file paths** for both CSVs:  
+  - `Copilot_Activities.csv`  
+  - `Copilot_Licensed_Users.csv`
