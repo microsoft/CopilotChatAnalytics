@@ -14,15 +14,16 @@
 ### 1. 🔍 Copilot Audit Logs
 
 - Go to: [security.microsoft.com](https://security.microsoft.com)
-- On the left pane, scroll down and click **Audit**.
-- Ensure you have appropriate **Compliance roles** (e.g., Audit Reader). If not, contact your IT admin.
+  - On the left pane, scroll down and click **Audit**.
+  - Ensure you have appropriate **Compliance roles** (e.g., Audit Reader). If not, contact your IT admin.
 - In **Activities > Friendly Names**, select:  
   `Copilot Activities – Interacted with Copilot`
 - Set a **Date Range** (recommended: 3–6 months).
 - Give your search a name and click **Search**.
-- Once the status changes to **Completed**, click into it.
+  - Once the status changes to **Completed**, click into it.
 - Select **Export > Download all results**.
-- This will download a `.csv` file containing an `AuditData` JSON column.
+
+This will download a `.csv` file containing an `AuditData` JSON column.
 
 📖 Learn more:  
 [Export, configure, and view audit log records – Microsoft Learn](https://learn.microsoft.com/en-us/purview/audit-log-export-records)
@@ -32,7 +33,7 @@
 ### 2. 👤 Licensed User List
 
 - Go to: [admin.microsoft.com](https://admin.microsoft.com)
-- Log in as a **Microsoft 365 Global Administrator**.
+  - Log in as a **Microsoft 365 Global Administrator**.
 - Navigate to **Reports > Usage**.
 - Select the **Microsoft 365 Copilot** tab.
 - On the **Readiness** tab, select:  
