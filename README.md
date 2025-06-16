@@ -16,7 +16,7 @@
 - In **Activities > Friendly Names**, select:  
   `Copilot Activities – Interacted with Copilot`
 - Set a **Date Range** (recommended: 3–6 months).
-- Give your search a name and click **Search**.
+- Give your search a name (CopilotAuditMMDDYYYY) and click **Search**.
 - Once the status changes to **Completed**, click into it.
 - Select **Export > Download all results**.
 - This will download a `.csv` file containing an `AuditData` JSON column.
