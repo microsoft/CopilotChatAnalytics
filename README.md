@@ -1,1 +1,52 @@
-# CopilotChatAnalytics
+✅ What You’ll Do
+Export Copilot interactions audit log from Microsoft Purview.
+
+Export licensed user list from Microsoft 365 Admin Center.
+
+Merge both datasets in Power BI.
+
+📁 Files You’ll Download
+1. 🔍 Copilot Audit Logs
+Go to: security.microsoft.com
+
+On the left pane, scroll down and click Audit.
+
+Ensure you have appropriate Compliance roles (e.g., Audit Reader). If not, contact your IT admin.
+
+In Activities > Friendly Names, select:
+Copilot Activities – Interacted with Copilot
+
+Set a Date Range (recommended: 3–6 months).
+
+Give your search a name and click Search.
+
+Once the status changes to Completed, click into it.
+
+Select Export > Download all results.
+
+This will download a .csv file containing an AuditData JSON column.
+
+📖 Learn more:
+Export, configure, and view audit log records – Microsoft Learn
+
+2. 👤 Licensed User List
+Go to: admin.microsoft.com
+
+Log in as a Microsoft 365 Global Administrator.
+
+Navigate to Reports > Usage.
+
+Select the Microsoft 365 Copilot tab.
+
+On the Readiness tab, select:
+
+Has Copilot license assigned
+
+Select only these columns:
+
+Username, Display name, Email
+
+Click the ellipsis (...) and choose Export to download the file as .csv.
+
+📖 Learn more:
+Microsoft 365 Copilot Readiness Report – Microsoft Learn
