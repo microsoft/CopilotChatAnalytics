@@ -2,9 +2,6 @@
 
 - Export **Copilot interactions audit log** from Microsoft Purview.
 - Export **licensed user list** from Microsoft 365 Admin Center.
-- **Paste your file paths** into Power BI when prompted:
-  - One for the **Copilot_Activities** file
-  - One for the **Copilot Licensed Users** file
 - Merge both datasets in Power BI.
 
 ---
@@ -44,6 +41,18 @@ This will download a `.csv` file containing an `AuditData` JSON column.
 
 📖 Learn more:  
 [Microsoft 365 Copilot Readiness Report – Microsoft Learn](https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-readiness?view=o365-worldwide)
+
+---
+
+### 3. 📊 Open Power BI Template & Set File Paths
+
+- Download the provided **Power BI report template (.PBIT)**.
+- Open the `.pbit` file in Power BI Desktop.
+- When prompted, paste in the **full file paths** for the two CSVs you downloaded:
+  - `Copilot_Activities.csv`
+  - `Copilot_Licensed_Users.csv`
+
+This will connect the template to your data and begin processing.
 
 ---
 
