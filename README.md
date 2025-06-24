@@ -1,8 +1,20 @@
+> ⚠️ **Disclaimer**  
+> Please note: The audit logs from Microsoft Purview are intended to support security and compliance use cases.  
+>
+> While they provide visibility into Copilot interactions, they are **not intended** to serve as the official source for Copilot usage reporting.  
+>
+> Metrics derived from this data—such as "prompt count" or "active user count"—**may differ** from the usage reports provided directly by Microsoft.  
+>
+> For the most accurate and reliable usage insights, users are encouraged to refer to data from the **Microsoft 365 Admin Center** and **Viva Insights**, which are purpose-built to deliver higher fidelity reporting.  
+>
+> Users should interpret audit log-based information with that context in mind.
+
+
 ## ✅ What You’ll Do
 
 - Export **Copilot interactions audit log** from Microsoft Purview.
 - Export **licensed user list** from Microsoft 365 Admin Center.
-- Merge both datasets in Power BI.
+- Export **user list with org data** from Microsoft Entra Admin Center.
 
 ---
 
@@ -43,24 +55,44 @@ This will download a `.csv` file containing an `AuditData` JSON column.
 [Microsoft 365 Copilot Readiness Report – Microsoft Learn](https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-readiness?view=o365-worldwide)
 
 ---
+## 📥 Exporting User List from Microsoft Entra Portal (UI)
 
-### 3. 📊 Open Power BI Template & Set File Paths
+Follow these steps to export a list of users with specific attributes from the Microsoft Entra admin center:
+
+### Prerequisites
+- An account with sufficient permissions to view and export user data in Microsoft Entra.
+
+### Steps
+
+1. **Sign in** to the [Microsoft Entra admin center](https://entra.microsoft.com/).
+2. In the **left-hand navigation**, go to:  
+   `Identity` ➝ `Users`
+3. Select **All users**.
+4. Click the **“Download users”** button (found in the toolbar or under the `...` menu).
+5. In the download dialog:
+   - Select the **attributes** to include in the CSV.
+   - **Required fields**:
+     - `UserPrincipalName`
+     - `Department`
+   - **Optional fields**:
+     - Choose as appropriate`
+6. Choose **CSV format** and click **Download**.
+
+📖 Learn more: https://learn.microsoft.com/en-us/entra/identity/users/users-bulk-download
+
+> 💡 Note: Avoid downloading non-essential attributes as it can degrade the performance
+
+
+### 4. 📊 Open Power BI Template & Set File Paths
 
 - Download the provided **Power BI report template (.PBIT)**.
 - Open the `.pbit` file in Power BI Desktop.
-- When prompted, paste in the **full file paths** for the two CSVs you downloaded:
+- When prompted, paste in the **full file paths** for the three CSVs you downloaded:
   - `Copilot_Activities.csv`
   - `Copilot_Licensed_Users.csv`
+  - `Org_Data.csv`
 
 This will connect the template to your data and begin processing.
 
 ---
 
-## 💡 Tips
-
-- The `AuditData` column contains nested JSON. Power BI will automatically flatten this using the provided report template.
-- Ensure the **audit log date range** is wide enough (3–6 months) to capture meaningful usage data.
-- Use **email address** as the key when merging datasets in Power BI.
-- When prompted in Power BI, paste the **full file paths** for both CSVs:  
-  - `Copilot_Activities.csv`  
-  - `Copilot_Licensed_Users.csv`
