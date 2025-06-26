@@ -83,6 +83,7 @@ Users should interpret audit log-based information with that context in mind.
   - `Copilot_Activities.csv`  
   - `Copilot_Licensed_Users.csv`  
   - `Org_Data.csv`  
+- Provide a text string to hash and obfuscate identifiers. This will deidentify sensitive data and makes it easier to share.
 - This will connect the template to your data and begin processing
 
 </details>
