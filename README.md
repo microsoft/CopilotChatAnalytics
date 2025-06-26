@@ -12,7 +12,7 @@ Users should interpret audit log-based information with that context in mind.
   - Copilot interactions audit log from Microsoft Purview  
   - Copilot licensed user list from Microsoft 365 Admin Center  
   - Org data from Microsoft Entra Admin Center  
-- Connect the files to the Power BI (PBI) template
+- Provide a hash string and connect the files to the Power BI (PBI) template
 
 ---
 
