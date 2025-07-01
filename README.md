@@ -1,22 +1,62 @@
-⚠️ **Disclaimer**  
-Please note: The audit logs from Microsoft Purview are intended to support security and compliance use cases.  
-While they provide visibility into Copilot interactions, they are **not intended** to serve as the official source for Copilot usage reporting.  
-Metrics derived from this data—such as "prompt count" or "active user count"—**may differ** from the usage reports provided directly by Microsoft.  
-For the most accurate and reliable usage insights, users are encouraged to refer to data from the **Microsoft 365 Admin Center** and **Viva Insights**, which are purpose-built to deliver higher fidelity reporting.  
-Users should interpret audit log-based information with that context in mind.
+# 💬 Copilot Chat Intelligence Report
+
+This report provides a view of Copilot Chat and Agent engagement to help IT and business leaders drive informed decisions around adoption, licensing, and enablement.
 
 ---
+
+<details>
+<summary>⚠️ **Important Usage & Compliance Disclaimer**</summary>
+
+Please note:  
+The audit logs from Microsoft Purview are intended to support security and compliance use cases. While they provide visibility into Copilot interactions, they are **not intended** to serve as the official source for Copilot usage reporting. Metrics derived from this data—such as "prompt count" or "active users"—**may differ** from the usage reports provided directly by Microsoft.  
+For the most accurate and reliable usage insights, users are encouraged to refer to data from the **Microsoft 365 Admin Center** and **Viva Insights**. Insights from this report are intended to highlight broad trends and patterns to guide adoption efforts and should not be used for exact or granular measurement.
+
+While the tool helps customers better understand their data, Microsoft has **no visibility** into the data that customers input into this template/tool, nor does Microsoft have any control over how customers will use this template/tool in their environment.  
+Customers are solely responsible for ensuring that their use of the template tool complies with all applicable laws and regulations, including those related to data privacy and security.  
+**Microsoft disclaims any and all liability** arising from or related to customers' use of the template tool.
+
+</details>
+
+---
+
+## 📊 What This Report Provides
+
+- **Visibility into Copilot Chat usage** across prompts, sessions, agents, and surfaces.  
+- **Breakdown of user engagement levels** to track progression from light to habitual use.  
+- **Insights into agent adoption** across licensed vs. free experiences.  
+- **Segmented views by org, quartile, and surface** to identify adoption hotspots and gaps.
+
+---
+
+## 🚀 How This Helps Leaders
+
+- **Inform smarter Copilot licensing decisions** using real usage signals—maximize ROI by targeting high-readiness users.  
+- **Accelerate AI readiness** by identifying where skills are organically developing, even before formal rollout.  
+- **Connect usage across platforms** (Chat, M365, agents) to get a unified view of adoption trends and surface-specific value.  
+- **Prioritize enablement efforts** based on actual usage patterns—focus resources where they’ll have the most impact.
 
 ## ✅ What You’ll Do
-- Export 3 files:  
-  - Copilot interactions audit log from Microsoft Purview  
-  - Copilot licensed user list from Microsoft 365 Admin Center  
-  - Org data from Microsoft Entra Admin Center  
-- Provide a hash string and connect the files to the Power BI (PBI) template
 
----
+<details open>
+<summary>📤 Step 1: Export 3 Files</summary>
 
-## 📁 Files You’ll Download
+- **Copilot interactions audit log** from Microsoft Purview  
+- **Copilot licensed user list** from Microsoft 365 Admin Center  
+- **Org data** from Microsoft Entra Admin Center  
+
+</details>
+
+<details open>
+<summary>🔐 Step 2: Provide Hash String & Connect Files</summary>
+
+- Supply a text string to be used for hashing and de-identifying sensitive identifiers  
+- Paste full file paths for each CSV into the Power BI (PBI) template:
+  
+</details>
+
+
+
+## 📁 Detailed Steps
 
 <details>
 <summary>🔍 Copilot Audit Logs from Purview</summary>
