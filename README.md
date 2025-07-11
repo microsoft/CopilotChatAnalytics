@@ -8,7 +8,7 @@ This report provides a view of Copilot Chat and Agent engagement to help IT and 
 <summary>⚠️ **Important Usage & Compliance Disclaimer**</summary>
 
 Please note:  
-The audit logs from Microsoft Purview are intended to support security and compliance use cases. While they provide visibility into Copilot interactions, they are **not intended** to serve as the official source for Copilot usage reporting. Metrics derived from this data—such as "prompt count" or "active users"—**may differ** from the usage reports provided directly by Microsoft.  
+The audit logs from Microsoft Purview are intended to support security and compliance use cases. While they provide visibility into Copilot interactions, they are **not intended** to serve as the official source for Copilot usage reporting. Metrics derived from this data—such as "prompt count" or "active users"—**may differ** from the usage reports provided directly by Microsoft and it may not be feasible to reconcile the differences.  
 For the most accurate and reliable usage insights, users are encouraged to refer to data from the **Microsoft 365 Admin Center** and **Viva Insights**. Insights from this report are intended to highlight broad trends and patterns to guide adoption efforts and should not be used for exact or granular measurement.
 
 While the tool helps customers better understand their data, Microsoft has **no visibility** into the data that customers input into this template/tool, nor does Microsoft have any control over how customers will use this template/tool in their environment.  
