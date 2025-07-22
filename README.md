@@ -5,7 +5,7 @@ This report provides a view of Copilot Chat and Agent engagement to help IT and 
 ---
 
 <details>
-<summary>⚠️ **Important Usage & Compliance Disclaimer**</summary>
+<summary>⚠️ **Important usage & compliance disclaimer - this is not official reporting for Chat or Agents**</summary>
 
 Please note:  
 The audit logs from Microsoft Purview are intended to support security and compliance use cases. While they provide visibility into Copilot interactions, they are **not intended** to serve as the official source for Copilot usage reporting. Metrics derived from this data—such as "prompt count" or "active users"—**may differ** from the usage reports provided directly by Microsoft and it may not be feasible to reconcile the differences.  
