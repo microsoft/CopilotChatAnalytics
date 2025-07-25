@@ -82,7 +82,7 @@ Customers are solely responsible for ensuring that their use of the template too
   - Log in as a **Microsoft 365 Global Administrator**  
 - To unhide usernames in MAC reports:  
   - Go to **Settings > Org Settings**, then under the **Services** tab, choose **Reports**  
-  - Deselect **Display concealed user, group, site names in all reports**  
+  - Select **Display concealed user, group, site names in all reports**  
   - Click **Save changes**  
 - Navigate to: **Reports > Usage > Microsoft 365 Copilot**  
 - In the **Readiness** tab, scroll to **Copilot Readiness Details**  
