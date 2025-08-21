@@ -117,7 +117,8 @@ Customers are solely responsible for ensuring that their use of the template too
 <details>
 <summary>📊 Open Power BI Template & Set File Paths</summary>
 
-- Download the provided Power BI report template (`.PBIT`)  
+- Download the provided Power BI report template (`.PBIT`)
+- Select Agent Usage template for analyzing agents and Chat Intelligence for deep analysis on Chat interactions  
 - Open the `.pbit` file in **Power BI Desktop**  
 - When prompted, paste in the full file paths for the three CSVs you downloaded:  
   - `Copilot_Activities.csv`  
