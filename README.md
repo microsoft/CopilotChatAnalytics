@@ -1,7 +1,7 @@
 # 💬 Copilot Chat and Agent Intelligence Reports
 
 <p style="font-size:small; font-weight:normal;">
-This repository contains two distinct reports: Chat Intelligence and Agent Intelligence. Please select the appropriate template based on your specific use case. These reports offer insights into Copilot Chat and Agent engagement, empowering IT and business leaders to make informed decisions regarding adoption, licensing, and enablement strategies.
+This repository contains two distinct reports: **Chat Intelligence** and **Agent Intelligence**. Please select the appropriate template based on your specific use case. These reports offer insights into Copilot Chat and Agent engagement, empowering IT and business leaders to make informed decisions regarding adoption, licensing, and enablement strategies.
 </p>
 
 ---
