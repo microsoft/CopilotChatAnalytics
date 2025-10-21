@@ -38,7 +38,7 @@ Customers are solely responsible for ensuring that their use of the template too
 - **Connect usage across platforms** (Chat, M365, agents) to get a unified view of adoption trends and surface-specific value.  
 - **Prioritize enablement efforts** based on actual usage patterns—focus resources where they’ll have the most impact.
 
-<details open>
+<details closed>
   <summary>▶️ <b>Preview Chat Intelligence (GIF) </b></summary>
 
   <br>
@@ -47,7 +47,7 @@ Customers are solely responsible for ensuring that their use of the template too
 
 </details>
 
-<details open>
+<details closed>
   <summary>▶️ <b>Preview Agent Intelligence (GIF) </b></summary>
 
   <br>
