@@ -47,7 +47,7 @@ Customers are solely responsible for ensuring that their use of the template too
 
 </details>
 
-<details closed>
+<details open>
   <summary>▶️ <b>Preview Agent Intelligence (GIF) </b></summary>
 
   <br>
