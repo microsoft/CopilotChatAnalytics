@@ -21,6 +21,7 @@ Customers are solely responsible for ensuring that their use of the template too
 
 ---
 
+
 ## 📊 What This Report Provides
 
 - **Visibility into Copilot Chat usage** across prompts, sessions, agents, and surfaces.  
@@ -36,6 +37,25 @@ Customers are solely responsible for ensuring that their use of the template too
 - **Accelerate AI readiness** by identifying where skills are organically developing, even before formal rollout.  
 - **Connect usage across platforms** (Chat, M365, agents) to get a unified view of adoption trends and surface-specific value.  
 - **Prioritize enablement efforts** based on actual usage patterns—focus resources where they’ll have the most impact.
+
+<details open>
+  <summary>▶️ <b>Preview Chat Intelligence (GIF) </b></summary>
+
+  <br>
+
+  <img src="https://raw.githubusercontent.com/microsoft/CopilotChatAnalytics/refs/heads/main/Images/ChatIntelGIG.gif" alt="GitHub Copilot Engagement Preview" width="100%" />
+
+</details>
+
+<details open>
+  <summary>▶️ <b>Preview Agent Intelligence (GIF) </b></summary>
+
+  <br>
+
+  <img src="https://raw.githubusercontent.com/microsoft/CopilotChatAnalytics/refs/heads/main/Images/AgentIntelGif.gif" alt="GitHub Copilot Engagement Preview" width="100%" />
+
+</details>
+
 
 ## ✅ What You’ll Do
 
