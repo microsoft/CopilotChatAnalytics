@@ -1,7 +1,7 @@
 # 💬 Copilot Chat and Agent Intelligence Reports
 
 <p style="font-size:small; font-weight:normal;">
-This repository contains two distinct reports: <strong>Chat Intelligence</strong> and <strong>Agent Intelligence</strong>. Please select the appropriate template based on your specific use case. Th[...]
+This repository contains two distinct reports: <strong>Chat Intelligence</strong> and <strong>Agent Intelligence</strong>. Please select the appropriate template based on your specific use case. This enables more precise analysis of user behaviors, trends, and licensing/readiness across Copilot surfaces.
 </p>
 
 ---
@@ -10,10 +10,10 @@ This repository contains two distinct reports: <strong>Chat Intelligence</strong
 <summary>⚠️ **Important usage & compliance disclaimer - this is not official reporting for Chat or Agents**</summary>
 
 Please note:  
-The audit logs from Microsoft Purview are intended to support security and compliance use cases. While they provide visibility into Copilot interactions, they are **not intended** to serve as the [...]
-For the most accurate and reliable usage insights, users are encouraged to refer to data from the **Microsoft 365 Admin Center** and **Viva Insights**. Insights from this report are intended to hi[...]
+The audit logs from Microsoft Purview are intended to support security and compliance use cases. While they provide visibility into Copilot interactions, they are **not intended** to serve as the sole source of truth for licensing or full-fidelity reporting on Copilot activity.  
+For the most accurate and reliable usage insights, users are encouraged to refer to data from the **Microsoft 365 Admin Center** and **Viva Insights**. Insights from this report are intended to highlight organic usage trends, not replace official reporting or enforce licensing requirements.
 
-While the tool helps customers better understand their data, Microsoft has **no visibility** into the data that customers input into this template/tool, nor does Microsoft have any control over ho[...]
+While the tool helps customers better understand their data, Microsoft has **no visibility** into the data that customers input into this template/tool, nor does Microsoft have any control over how it is used or processed.  
 Customers are solely responsible for ensuring that their use of the template tool complies with all applicable laws and regulations, including those related to data privacy and security.  
 **Microsoft disclaims any and all liability** arising from or related to customers' use of the template tool.
 
