@@ -1,7 +1,7 @@
 # 💬 Copilot Chat and Agent Intelligence Reports
 
 <p style="font-size:small; font-weight:normal;">
-This repository contains two distinct reports: <strong>Chat Intelligence</strong> and <strong>Agent Intelligence</strong>. Please select the appropriate template based on your specific use case. These reports offer insights into Copilot Chat and Agent engagement, empowering IT and business leaders to make informed decisions regarding adoption, licensing, and enablement strategies.
+This repository contains two distinct reports: <strong>Chat Intelligence</strong> and <strong>Agent Intelligence</strong>. Please select the appropriate template based on your specific use case. Th[...]
 </p>
 
 ---
@@ -10,10 +10,10 @@ This repository contains two distinct reports: <strong>Chat Intelligence</strong
 <summary>⚠️ **Important usage & compliance disclaimer - this is not official reporting for Chat or Agents**</summary>
 
 Please note:  
-The audit logs from Microsoft Purview are intended to support security and compliance use cases. While they provide visibility into Copilot interactions, they are **not intended** to serve as the official source for Copilot usage reporting. Metrics derived from this data—such as "prompt count" or "active users"—**may differ** from the usage reports provided directly by Microsoft and it may not be feasible to reconcile the differences.  
-For the most accurate and reliable usage insights, users are encouraged to refer to data from the **Microsoft 365 Admin Center** and **Viva Insights**. Insights from this report are intended to highlight broad trends and patterns to guide adoption efforts and should not be used for exact or granular measurement.
+The audit logs from Microsoft Purview are intended to support security and compliance use cases. While they provide visibility into Copilot interactions, they are **not intended** to serve as the [...]
+For the most accurate and reliable usage insights, users are encouraged to refer to data from the **Microsoft 365 Admin Center** and **Viva Insights**. Insights from this report are intended to hi[...]
 
-While the tool helps customers better understand their data, Microsoft has **no visibility** into the data that customers input into this template/tool, nor does Microsoft have any control over how customers will use this template/tool in their environment.  
+While the tool helps customers better understand their data, Microsoft has **no visibility** into the data that customers input into this template/tool, nor does Microsoft have any control over ho[...]
 Customers are solely responsible for ensuring that their use of the template tool complies with all applicable laws and regulations, including those related to data privacy and security.  
 **Microsoft disclaims any and all liability** arising from or related to customers' use of the template tool.
 
@@ -21,6 +21,16 @@ Customers are solely responsible for ensuring that their use of the template too
 
 ---
 
+## 🔑 Permissions Required
+
+For Graph API access to Entra user information and mac licensing, you must assign the following Microsoft Graph permissions:
+
+- `User.Read.All`
+- `Organization.Read.All`
+
+These permissions are required for both user info and mac licensing data (the latter is technically in Entra as well).
+
+---
 
 ## 📊 What This Report Provides
 
@@ -56,7 +66,6 @@ Customers are solely responsible for ensuring that their use of the template too
 
 </details>
 
-
 ## ✅ What You’ll Do
 
 <details open>
@@ -75,8 +84,6 @@ Customers are solely responsible for ensuring that their use of the template too
 - Paste full file paths for each CSV into the Power BI (PBI) template:
   
 </details>
-
-
 
 ## 📁 Detailed Steps
 
@@ -143,9 +150,9 @@ Customers are solely responsible for ensuring that their use of the template too
 - Select Agent Usage template for analyzing agents and Chat Intelligence for deep analysis on Chat interactions  
 - Open the `.pbit` file in **Power BI Desktop**  
 - When prompted, paste in the full file paths for the three CSVs you downloaded:  
-  - `Copilot_Activities.csv`  
-  - `Copilot_Licensed_Users.csv`  
-  - `Org_Data.csv`  
+   - `Copilot_Activities.csv`  
+   - `Copilot_Licensed_Users.csv`  
+   - `Org_Data.csv`  
 - Provide a text string to hash and obfuscate identifiers. This will deidentify sensitive data and makes it easier to share.
 - This will connect the template to your data and begin processing
 
