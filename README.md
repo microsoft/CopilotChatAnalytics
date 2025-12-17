@@ -28,6 +28,12 @@ For Graph API access to Entra user information and mac licensing, you must assig
 - `User.Read.All`
 - `Organization.Read.All`
 
+For Purview data, you will need one of the following roles:
+
+ - `View-Only Audit Logs role (read-only, recommended for production)`
+ - `Audit Logs role (if write operations needed elsewhere)`
+ - `Member of appropriate role groups in Microsoft Purview compliance portal`
+
 These permissions are required for both user info and mac licensing data (the latter is technically in Entra as well).
 
 ---
