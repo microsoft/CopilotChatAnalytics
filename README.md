@@ -100,6 +100,16 @@ These permissions are required for both user info and mac licensing data (the la
 
 </details>
 
+<a id="watch-the-overview"></a>
+
+## 🎬 Watch the overview
+
+A short tour — how to read chat usage, agent adoption, and AI readiness across your org.
+
+[![Watch the overview on YouTube](https://img.youtube.com/vi/3zIlbzkxNQg/maxresdefault.jpg)](https://youtu.be/3zIlbzkxNQg)
+
+**▶ [Watch on YouTube](https://youtu.be/3zIlbzkxNQg)**
+
 > 📧 **Before you begin, your IT admin needs to export data from Purview and Entra.**
 > These pre-written emails cover all required data sources, field names, admin roles, permissions, and export steps.
 >
